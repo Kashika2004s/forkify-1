@@ -359,6 +359,9 @@ footer {
     height:100%;
     margin-bottom: 10px; 
   }
+  #icon{
+    left: 10em;
+  }
 }
 
 
@@ -413,14 +416,10 @@ footer {
     width:250px;
     height:200px;
   }
-  /* .image-container2{
-    height:200px;
-    width:320px;
+  header{
+    background-repeat: no-repeat;
+    background-size: cover;
   }
-  .image-container{
-    height:200px;
-    width:320px;
-  } */
 }
 .f,.s,.t,.fo{
   position: relative;
