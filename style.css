@@ -427,11 +427,11 @@ color: #d3ab55;
   align-items: center;
   flex-direction: column;
   opacity: 0;
-  transition: left .7s;
+  /* transition: left .7s; */
   
   
 }
-.card:hover .card-overlay {
+.card-overlay {
   opacity: 2;
   
 
@@ -475,6 +475,20 @@ color: #d3ab55;
 .card-overlay-btn:hover {
   
   color: white;
+}
+.card-overlay-heading {
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+.show-text {
+  opacity: 1;
+}
+#cuisineDisplay p{
+  font-size: xx-large;
+  margin-left:500px;
+  font-weight: bold;
+  color: #d3ab55;
+  margin-top: 20px;
 }
 
 
@@ -552,24 +566,6 @@ color: #d3ab55;
   animation: fadeInDown 1s ease-in-out forwards;
 }
 
-/* Add scale-in animation for .card-overlay */
-@keyframes scaleIn {
-  from {
-    transform: scale(0);
-  }
-  to {
-    transform: scale(1);
-  }
-}
-
-.card-overlay {
-  transform: scale(0);
-  transition: transform 0.5s ease;
-}
-
-.card:hover .card-overlay {
-  transform: scale(1);
-}
 
 .footer {
   background-color: rgb(147, 146, 146);
