@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indian Cuisine</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous"> 
+    <!-- <link rel="stylesheet" href="fontawesome/css/all.min.css"> -->
+    <link rel="stylesheet" href="indian.css">
+</head>
+<body>
+    <header>
+        <h1>Bhojan ka ānand lījiye!Welcome to Indian Cuisine</h1>
+    </header>
+    <div id="intro">
+      <section class="introduction">
+        <p>Indian cuisine is known for its rich flavors, vibrant spices, and diverse range</p> <p>of dishes. From the fiery curries of the south to the aromatic biryanis of the </p><p>north, each region of India has its own unique culinary traditions.</p>
+        <p>Explore the mouthwatering world of Indian cuisine through our selection of </p><p>recipes, ingredients, and cooking techniques.</p>
+        <p>Discover the intricate blend of flavors and spices that make Indian food </p>
+        <p>so special. From the tandoori dishes of Punjab to the seafood delicacies of </p>
+        <p>the coastal regions, there's something to satisfy every palate.</p>
+      </section>
+      <section class="image">
+        <img src="../images/South.jpg" alt="South">
+        <img src="../images/North.jpg" alt="North">
+      </section>
+
+    </div>
+
+    <div class="image-container">
+      <div class="f"><i id="icon" onclick="likeBtn(this)" class="far fa-heart "></i>
+      <img src="../images/Makki.webp" alt="Image 1">
+        <p>Makki di Rotti</p>
+        <p>Sarson ka Saag</p>
+        <div class="rating1">
+          <i class="far fa-star" onclick="rate(this)"></i>
+          <i class="far fa-star" onclick="rate(this)"></i>
+          <i class="far fa-star" onclick="rate(this)"></i>
+          <i class="far fa-star" onclick="rate(this)"></i>
+          <i class="far fa-star" onclick="rate(this)"></i>
+        </div>
+        <button type="submit" class="card-overlay-btn"><a href="../Recipes/Makki.html">VIEW RECIPE</a></button>
+      </div>
+      <div class="s"><i id="icon" onclick="likeBtn(this)" class="far fa-heart"></i><img src="../images/Biryani.jpg" alt="Image 2">
+        <p>Biryaani</p>
+        <div class="rating2">
+          <i class="far fa-star" onclick="rate(this)"></i>
+          <i class="far fa-star" onclick="rate(this)"></i>
+          <i class="far fa-star" onclick="rate(this)"></i>
+          <i class="far fa-star" onclick="rate(this)"></i>
+          <i class="far fa-star" onclick="rate(this)"></i>
+        </div>
+        <button type="submit" class="card-overlay-btn"><a href="../Recipes/Biryani.html">VIEW RECIPE</a></button>
+      </div>
+      <div class="t"><i id="icon" onclick="likeBtn(this)" class="far fa-heart"></i><img src="../images/Plain-Dosa.jpg" alt="Image 3">
+        <p>Masala Dosa</p>
+        <div class="rating3">
+          <i class="far fa-star" onclick="rate(this)"></i>
+          <i class="far fa-star" onclick="rate(this)"></i>
+          <i class="far fa-star" onclick="rate(this)"></i>
+          <i class="far fa-star" onclick="rate(this)"></i>
+          <i class="far fa-star" onclick="rate(this)"></i>
+        </div>
+        <button type="submit" class="card-overlay-btn"><a href="../Recipes/dosa.html">VIEW RECIPE</a></button>
+      </div>
+      <div class="fo"><i id="icon" onclick="likeBtn(this)" class="far fa-heart"></i><img src="../images/Pav_bhaji.jpg" alt="Image 4">
+        <p>Pav Bhaji</p>
+        <div class="rating2">
+          <i class="far fa-star" onclick="rate(this)"></i>
+          <i class="far fa-star" onclick="rate(this)"></i>
+          <i class="far fa-star" onclick="rate(this)"></i>
+          <i class="far fa-star" onclick="rate(this)"></i>
+          <i class="far fa-star" onclick="rate(this)"></i>
+        </div>
+        <button type="submit" class="card-overlay-btn"><a href="../Recipes/pav.html">VIEW RECIPE</a></button>
+      </div> 
+    </div>
+    <br><br>
+    <div class="image-container2"> 
+      <div class="f"> <i id="icon" onclick="likeBtn(this)" class="far fa-heart"></i><img src="../images/Paneer.jpg" alt="Image 1">
+        <p>Paneer Tikka</p>
+        <div class="rating3">
+          <i class="far fa-star" onclick="rate(this)"></i>
+          <i class="far fa-star" onclick="rate(this)"></i>
+          <i class="far fa-star" onclick="rate(this)"></i>
+          <i class="far fa-star" onclick="rate(this)"></i>
+          <i class="far fa-star" onclick="rate(this)"></i>
+        </div>
+        <button type="submit" class="card-overlay-btn"><a href="../Recipes/paneer.html">VIEW RECIPE</a></button>
+      </div>
+      <div class="fo"><i id="icon" onclick="likeBtn(this)" class="far fa-heart"></i><img src="../images/Pani Puri.jpg" alt="Image 2">
+        <p>Pani Puri</p>
+        <div class="rating2">
+          <i class="far fa-star" onclick="rate(this)"></i>
+          <i class="far fa-star" onclick="rate(this)"></i>
+          <i class="far fa-star" onclick="rate(this)"></i>
+          <i class="far fa-star" onclick="rate(this)"></i>
+          <i class="far fa-star" onclick="rate(this)"></i>
+        </div>
+        <button type="submit" class="card-overlay-btn"><a href="../Recipes/pani.html">VIEW RECIPE</a></button>
+      </div>
+      <div class="s"><i id="icon" onclick="likeBtn(this)" class="far fa-heart"></i><img src="../images/Samosa.jpg" alt="Image 3">
+        <p>Samosa</p>
+        <div class="rating2">
+          <i class="far fa-star" onclick="rate(this)"></i>
+          <i class="far fa-star" onclick="rate(this)"></i>
+          <i class="far fa-star" onclick="rate(this)"></i>
+          <i class="far fa-star" onclick="rate(this)"></i>
+          <i class="far fa-star" onclick="rate(this)"></i>
+        </div>
+        <button type="submit" class="card-overlay-btn"><a href="../Recipes/samosa.html">VIEW RECIPE</a></button>
+      </div>
+      <div class="t"><i id="icon" onclick="likeBtn(this)" class="far fa-heart"></i><img src="../images/Gulab Jamun.jpg" alt="Image 4">
+        <p>Gulab Jamun</p>
+        <div class="rating2">
+          <i class="far fa-star" onclick="rate(this)"></i>
+          <i class="far fa-star" onclick="rate(this)"></i>
+          <i class="far fa-star" onclick="rate(this)"></i>
+          <i class="far fa-star" onclick="rate(this)"></i>
+          <i class="far fa-star" onclick="rate(this)"></i>
+        </div>
+        <button type="submit" class="card-overlay-btn"><a href="../Recipes/gulab.html">VIEW RECIPE</a></button>
+      </div>
+    </div>
+  
+    <footer>
+      <div class="footer-content">
+          <h3>About Us</h3>
+          <p>We are dedicated to promoting and sharing the rich and diverse culture of Indian cuisine. </p>
+          <p>Our website offers a collection of authentic recipes, cooking tips, and information about the</p> <p>different regional cuisines of India.</p>
+      </div>
+      <div class="footer-content">
+          <h3>Contact Us</h3>
+          <p>Email: info@indiancuisine.com</p>
+          <p>Phone: +1 (123) 456-7890</p>
+      </div>
+      <div class="footer-content">
+          <h3>Follow Us</h3>
+          <p>Stay connected with us on social media for updates and more:</p>
+          <ul>
+              <li><a href="https://m.facebook.com/FoodsAndFlavors"  class="facebook-link"><i class="fab fa-facebook-square"></i>Facebook</a></li>
+              <li><a href="https://youtube.com/@VegVillageFood?si=dNzc7d5J8Wq2nEg_" class="you"><i class="fab fa-youtube"></i>You Tube</a></li>
+              <li><a href="https://www.instagram.com/glowvegan__?igsh=M3draDZoa3l0M2Zi" class="insta"><i class="fab fa-instagram"></i>Instagram</a></li>
+          </ul>
+      </div>
+      <div class="footer-content">
+          <p>&copy; 2024 Indian Cuisine. All rights reserved.</p>
+      </div>
+  </footer>
+  <script src="scr.js"></script>
+</body>
+</html>
